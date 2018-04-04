@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  main
+    div(class="container")
+      div(class="row")
+        div(class="col-lg-9")
+          div(id="map-item")
+        div(class="col-lg-3")
+          p(id="postion") The ISS is currently at<br>
+            span(id='latitude')
+            span(id='longitude')
+        div(class="col-lg-3")
+          button(type='submit')
