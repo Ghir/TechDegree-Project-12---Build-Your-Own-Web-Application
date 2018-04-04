@@ -23,6 +23,7 @@
       const marker = new google.maps.Marker({
           position: position,
           map: map,
+          icon: 'static/images/marker.png',
         });
     });
   }
