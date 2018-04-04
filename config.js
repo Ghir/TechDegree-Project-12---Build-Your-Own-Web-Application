@@ -1,1 +1,1 @@
-module.exports = { googleMaps_apiKey: 'AIzaSyDTNnYpmWSee-v8lbuIapvpLK6dP_IC8vs' }
+module.exports = { googleMaps_apiKey: 'Your-Api-Key' }

@@ -2,3 +2,10 @@
   height: calc(70vh - 56px);
   width: 100%;
 }
+
+.container {
+  margin-top: 100px
+}
+.col-lg-3 {
+  margin-top: 180px
+}

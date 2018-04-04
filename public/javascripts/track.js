@@ -29,7 +29,6 @@
 
   $('button').click( () => {
     $.post('/', $('form').val(), function() {
-      console.log('data posted')
     })
   })
 

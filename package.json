@@ -1,6 +1,7 @@
 {
   "name": "js-project-12---build-your-own-web-application",
   "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
     "start": "node ./bin/www"
   },
