@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/static', express.static('public'));
 
-logger.info('Starting server', { port: 5000 });
+logger.info('Starting server', { port: 3000 });
 logger.error('Invalid `type` argument', { argument: 'type', value: 'nuber' });
 
 app.get('/', (req, res) => {
