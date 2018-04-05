@@ -1,11 +1,11 @@
 (function(){
 
-  var options = {
+  const options = {
     zoom: 3,
   };
 
-  var mapItem = document.getElementById("map-item");
-  var map = new google.maps.Map(mapItem, options);
+  const mapItem = document.getElementById("map-item");
+  const map = new google.maps.Map(mapItem, options);
 
   function getPosition() {
 

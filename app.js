@@ -1,31 +1,30 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const morgan = require('morgan');
 const config = require('./config.js');
 const getJSON = require('get-json');
 const bodyParser = require('body-parser');
 const axios = require('axios');
 const Sequelize = require("sequelize");
 const User = require('./models').User;
-// var indexRouter = require('./routes/index');
-// var usersRouter = require('./routes/users');
+const logger = require('heroku-logger');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-app.use(logger('dev'));
+app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/static', express.static('public'));
 
-// app.use('/', indexRouter);
-// app.use('/users', usersRouter);
+logger.info('Starting server', { port: 5000 });
+logger.error('Invalid `type` argument', { argument: 'type', value: 'nuber' });
 
 app.get('/', (req, res) => {
   res.render('home')
