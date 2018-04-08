@@ -1,1 +1,1 @@
-module.exports = { googleMaps_apiKey: 'Your-Api-Key' }
+module.exports = { googleMaps_apiKey: process.env.Your_Api_Key }
