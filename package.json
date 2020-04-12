@@ -1,5 +1,5 @@
 {
-  "name": "js-project-12---build-your-own-web-application",
+  "name": "space-station-tracker",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "node": "8.9.4"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -17,10 +17,10 @@
     "get-json": "^1.0.0",
     "heroku-logger": "^0.3.0",
     "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11",
-    "sequelize": "^4.22.11",
-    "sequelize-cli": "^4.0.0",
-    "sqlite3": "^3.1.13"
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "sequelize": "^4.44.4",
+    "sequelize-cli": "^4.1.1",
+    "sqlite3": "^4.1.1"
   }
 }
