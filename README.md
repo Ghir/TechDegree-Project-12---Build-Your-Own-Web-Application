@@ -1,6 +1,6 @@
-### Space Station Tracker
+## Space Station Tracker
 
-Shows a map with the current position of the International Space Station (ISS).
+Full-Stack app that tracks the position of the International Space Station (ISS).
 
 ### Running
 
@@ -14,3 +14,4 @@ Shows a map with the current position of the International Space Station (ISS).
 - Express
 - SQLite
 - Sequelize
+- Pug
